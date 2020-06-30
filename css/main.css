@@ -60,6 +60,11 @@
  * # base style overrides
  *
  * ------------------------------------------------------------------- */
+
+ .margins {
+  margin: 1em;
+ }
+
  .container {
   position: relative;
   width: 100%;
