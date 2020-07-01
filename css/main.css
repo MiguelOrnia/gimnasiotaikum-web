@@ -67,12 +67,13 @@
 
  .mySlides {
   width: auto;
-  height: 330px;
+  height: 300px;
+  margin: 1em;
  }
 
  .container {
   position: relative;
-  width: 100%;
+  width: 85%;
   height: 0;
   padding-bottom: 56.25%;
 }
@@ -132,7 +133,7 @@ body.ss-bg-white {
  * ## links
  * ------------------------------------------------------------------- */
 a {
-  color: #da5260;
+  color: #000000;
   transition: all 0.3s ease-in-out;
 }
 
