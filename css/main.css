@@ -65,6 +65,11 @@
   margin: 1em;
  }
 
+ .table-horario {
+   margin-top: 2em;
+   background-color: #afafaf;
+ }
+
  .mySlides {
   width: auto;
   height: 300px;
@@ -515,7 +520,7 @@ th,
 td {
   padding: 1.5rem 3.2rem;
   text-align: left;
-  border-bottom: 1px solid #e0e0e0;
+  border: 1px solid #000000;
 }
 
 th {
