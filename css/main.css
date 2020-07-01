@@ -65,6 +65,11 @@
   margin: 1em;
  }
 
+ .mySlides {
+  width: auto;
+  height: 330px;
+ }
+
  .container {
   position: relative;
   width: 100%;
@@ -77,6 +82,14 @@
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.background-body {
+  background-image: url("../images/thumbs/background/background.svg");
+  background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
 }
 
  html {
@@ -119,7 +132,7 @@ body.ss-bg-white {
  * ## links
  * ------------------------------------------------------------------- */
 a {
-  color: #33998a;
+  color: #da5260;
   transition: all 0.3s ease-in-out;
 }
 
@@ -437,7 +450,7 @@ ul.disc li::before {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: #33998a;
+  background: #da5260;
   position: absolute;
   left: -16px;
   top: 11px;
@@ -446,7 +459,7 @@ ul.disc li::before {
 
 dt {
   margin: 0;
-  color: #33998a;
+  color: #da5260;
 }
 
 dd {
@@ -929,7 +942,7 @@ textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
-  -webkit-text-fill-color: #33998a;
+  -webkit-text-fill-color: #da5260;
   transition: background-color 5000s ease-in-out 0s;
 }
 
@@ -1004,8 +1017,8 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus,
 input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
-  background: #33998a;
-  border-color: #33998a;
+  background: #da5260;
+  border-color: #da5260;
 }
 
 /* button modifiers
@@ -1208,7 +1221,7 @@ input::-moz-focus-inner {
 }
 
 .stats-tabs li a:hover {
-  color: #33998a;
+  color: #da5260;
 }
 
 .stats-tabs li a em {
