@@ -68,12 +68,13 @@
  .mySlides {
   width: auto;
   height: 300px;
-  margin: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
  }
 
  .container {
   position: relative;
-  width: 85%;
+  width: 100%;
   height: 0;
   padding-bottom: 56.25%;
 }
@@ -893,43 +894,43 @@ label > input[type="radio"] {
 ::-webkit-input-placeholder {
 
   /* WebKit, Blink, Edge */
-  color: #8c8c8c;
+  color: #464545;
 }
 
 :-moz-placeholder {
 
   /* Mozilla Firefox 4 to 18 */
-  color: #8c8c8c;
+  color: #464545;
   opacity: 1;
 }
 
 ::-moz-placeholder {
 
   /* Mozilla Firefox 19+ */
-  color: #8c8c8c;
+  color: #464545;
   opacity: 1;
 }
 
 :-ms-input-placeholder {
 
   /* Internet Explorer 10-11 */
-  color: #8c8c8c;
+  color: #464545;
 }
 
 ::-ms-input-placeholder {
 
   /* Microsoft Edge */
-  color: #8c8c8c;
+  color: #464545;
 }
 
 ::placeholder {
 
   /* Most modern browsers support this now. */
-  color: #8c8c8c;
+  color: #464545;
 }
 
 .placeholder {
-  color: #8c8c8c !important;
+  color: #464545 !important;
 }
 
 /* ------------------------------------------------------------------- 
