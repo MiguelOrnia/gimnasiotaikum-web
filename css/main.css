@@ -2551,6 +2551,10 @@ input::-moz-focus-inner {
   background-image: url(../images/icons/social/icon-instagram.svg);
 }
 
+.header__social .ss-youtube a::after {
+  background-image: url(../images/icons/social/icon-youtube.svg);
+}
+
 .header__social .ss-pinterest a::after {
   background-image: url(../images/icons/social/icon-pinterest.svg);
 }
