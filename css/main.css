@@ -99,6 +99,11 @@
     width: 100%;
 }
 
+.center {
+  justify-content: center;
+  display: flex;
+}
+
  html {
   font-size: 10px;
 }
@@ -1855,7 +1860,7 @@ input::-moz-focus-inner {
 
 .masonry .entry__title a:hover,
 .masonry .entry__title a:focus {
-  color: #267367;
+  color: #da5260;
 }
 
 .masonry .entry__excerpt {
