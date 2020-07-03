@@ -94,20 +94,37 @@
                         </div>
                     </div>
                     <h3 class="h2">Escríbeme</h3>
-                    <form name="contactForm" id="contactForm" method="post" action="" autocomplete="off">
+                    <form name="contactForm" id="contactForm" action="../inc/sendEmail.php" method="get" autocomplete="off">
                         <fieldset>
                             <div class="form-field">
-                                <input name="cName" id="cName" class="full-width" placeholder="Nombre" value="" type="text">
+                                <input name="cName" id="cName" minlength="2" class="full-width" placeholder="Nombre" value="" required="" type="text">
                             </div>
                             <div class="form-field">
-                                <input name="cEmail" id="cEmail" class="full-width" placeholder="Correo electrónico" value="" type="text">
+                                <input name="cEmail" id="cEmail" class="full-width" type="email" placeholder="Correo electrónico" value="" required="" type="text">
+                            </div>
+                            <div class="form-field">
+                                <input name="cSubject" id="cSubject" class="full-width" placeholder="Asunto" value="" type="text">
                             </div>
                             <div class="message form-field">
-                                <textarea name="cMessage" id="cMessage" class="full-width" placeholder="Mensaje"></textarea>
+                                <textarea name="cMessage" id="cMessage" cols="50" rows="10" class="full-width" required="" placeholder="Mensaje"></textarea>
                             </div>
-                            <input name="submit" id="submit" class="btn btn--primary btn-wide btn--large full-width" value="Enviar mensaje" type="submit">
+                            <div class="form-field">
+                                <input name="submit" id="submit" class="btn btn--primary btn-wide btn--large full-width" value="Enviar mensaje" type="submit">
+                                <div id="submit-loader">
+                                    <div class="text-loader">Enviando...</div>
+                                    <div class="s-loader">
+                                        <div class="bounce1"></div>
+                                        <div class="bounce2"></div>
+                                        <div class="bounce3"></div>
+                                    </div>
+                                </div>
+                            </div>
                       </fieldset>
                     </form> 
+                    <div id="message-warning"></div>
+                    <div id="message-success">
+                        <i class="fa fa-check"></i>Su mensaje fue enviado con éxito<br>
+                    </div>
                 </section>
             </main>
         </div> 
@@ -144,6 +161,7 @@
         </footer>
     </div> 
     <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
     <script src="../js/plugins.js"></script>
     <script src="../js/main.js"></script>
 </body>
