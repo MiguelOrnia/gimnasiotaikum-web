@@ -269,6 +269,7 @@
             }
         });
     };
+    
 
 
    /* Initialize
@@ -285,7 +286,6 @@
         ssSmoothScroll();
         ssAlertBoxes();
         ssBackToTop();
-
     })();
 
 })(jQuery);
