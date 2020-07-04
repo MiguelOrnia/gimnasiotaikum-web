@@ -61,45 +61,6 @@
  *
  * ------------------------------------------------------------------- */
 
- #message-warning, #message-success {
-  display: none;
-  background: #0d0d0d;
-  border-radius: 3px;
-  padding: 3rem;
-  margin-bottom: 3.6rem;
-  width: 100%;
-}
-
-#message-warning {
-  color: #fa0003;
-}
-
-#message-success {
-  color: #c3073f;
-}
-
-#message-warning i, #message-success i {
-  margin-right: 10px;
-}
-
-/* form loader */
-#submit-loader {
-  display: none;
-  position: relative;
-  left: 0;
-  top: 1.8rem;
-  width: 100%;
-  text-align: center;
-}
-
-#submit-loader .text-loader {
-  display: none;
-  font-family: "poppins-bold", sans-serif;
-  color: #FFFFFF;
-  letter-spacing: .3rem;
-  text-transform: uppercase;
-}
-
  .margins {
   margin: 1em;
  }
