@@ -61,6 +61,14 @@
  *
  * ------------------------------------------------------------------- */
 
+ .pie-foto {
+    font-size: 1.1rem;
+    font-family: "IBM Plex Sans", sans-serif;
+    line-height: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+ }
+
  .margins {
   margin: 1em;
  }
