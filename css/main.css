@@ -61,6 +61,16 @@
  *
  * ------------------------------------------------------------------- */
 
+ .contact-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-box div {
+  width: 100px;
+  height: 100px;
+}
  .pie-foto {
     font-size: 1.1rem;
     font-family: "IBM Plex Sans", sans-serif;
