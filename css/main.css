@@ -88,9 +88,12 @@
    background-color: #afafaf;
  }
 
+ .homeSlides {
+  height: 265px;
+ }
+ 
  .mySlides {
   width: auto;
-  height: 272px;
   margin-top: 1em;
   margin-bottom: 1em;
  }
@@ -1621,7 +1624,7 @@ input::-moz-focus-inner {
   line-height: 1.143;
   letter-spacing: -0.05rem;
   margin-top: 0;
-  margin-bottom: 1.4rem;
+  margin-bottom: 1.6rem;
 }
 
 /* ------------------------------------------------------------------- 
