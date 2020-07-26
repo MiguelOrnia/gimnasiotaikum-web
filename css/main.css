@@ -113,7 +113,8 @@
 }
 
 .background-body {
-  background-image: url("../images/thumbs/background/background.svg");
+  background-image: linear-gradient(#ffffff, rgb(201, 45, 45));
+  
   background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
