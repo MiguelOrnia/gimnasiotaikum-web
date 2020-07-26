@@ -61,44 +61,23 @@
  *
  * ------------------------------------------------------------------- */
 
- #message-warning, #message-success {
-  display: none;
-  background: #0d0d0d;
-  border-radius: 3px;
-  padding: 3rem;
-  margin-bottom: 3.6rem;
-  width: 100%;
+ .contact-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-#message-warning {
-  color: #fa0003;
+.contact-box div {
+  width: 100px;
+  height: 100px;
 }
-
-#message-success {
-  color: #c3073f;
-}
-
-#message-warning i, #message-success i {
-  margin-right: 10px;
-}
-
-/* form loader */
-#submit-loader {
-  display: none;
-  position: relative;
-  left: 0;
-  top: 1.8rem;
-  width: 100%;
-  text-align: center;
-}
-
-#submit-loader .text-loader {
-  display: none;
-  font-family: "poppins-bold", sans-serif;
-  color: #FFFFFF;
-  letter-spacing: .3rem;
-  text-transform: uppercase;
-}
+ .pie-foto {
+    font-size: 1.1rem;
+    font-family: "IBM Plex Sans", sans-serif;
+    line-height: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+ }
 
  .margins {
   margin: 1em;
@@ -109,9 +88,12 @@
    background-color: #afafaf;
  }
 
+ .homeSlides {
+  height: 265px;
+ }
+ 
  .mySlides {
   width: auto;
-  height: 300px;
   margin-top: 1em;
   margin-bottom: 1em;
  }
@@ -1642,7 +1624,7 @@ input::-moz-focus-inner {
   line-height: 1.143;
   letter-spacing: -0.05rem;
   margin-top: 0;
-  margin-bottom: 0.8rem;
+  margin-bottom: 1.6rem;
 }
 
 /* ------------------------------------------------------------------- 
