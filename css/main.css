@@ -173,7 +173,7 @@ a {
 a:hover,
 a:focus,
 a:active {
-  color: #da5260;
+  color: #a50717;
 }
 
 a:hover,
@@ -976,7 +976,7 @@ textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
-  -webkit-text-fill-color: #da5260;
+  -webkit-text-fill-color: #a50717;
   transition: background-color 5000s ease-in-out 0s;
 }
 
@@ -1051,8 +1051,8 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus,
 input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
-  background: #da5260;
-  border-color: #da5260;
+  background: #a50717;
+  border-color: #a50717;
 }
 
 /* button modifiers
@@ -1255,7 +1255,7 @@ input::-moz-focus-inner {
 }
 
 .stats-tabs li a:hover {
-  color: #da5260;
+  color: #a50717;
 }
 
 .stats-tabs li a em {
@@ -1882,7 +1882,7 @@ input::-moz-focus-inner {
 
 .masonry .entry__title a:hover,
 .masonry .entry__title a:focus {
-  color: #da5260;
+  color: #a50717;
 }
 
 .masonry .entry__excerpt {
@@ -3322,7 +3322,7 @@ body.search-is-visible {
 
 .entry__nav a:hover span,
 .entry__nav a:focus span {
-  color: #33998a;
+  color: #a50717;
 }
 
 .entry__prev,
