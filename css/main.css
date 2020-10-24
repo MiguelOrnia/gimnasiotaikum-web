@@ -113,7 +113,8 @@
 }
 
 .background-body {
-  background-image: linear-gradient(#ffffff, rgb(201, 45, 45));
+  /**background-image: linear-gradient(#ffffff, rgb(201, 45, 45));*/
+  background-color: rgb(201, 45, 45);
   
   background-repeat: no-repeat;
     background-position: center;
@@ -149,7 +150,7 @@ body {
   font-style: normal;
   font-weight: normal;
   line-height: 1.789;
-  color: #000000;
+  color: #fff;
   margin: 0;
   padding: 0;
 }
@@ -166,7 +167,7 @@ body.ss-bg-white {
  * ## links
  * ------------------------------------------------------------------- */
 a {
-  color: #000000;
+  color: #fff;
   transition: all 0.3s ease-in-out;
 }
 
@@ -191,12 +192,13 @@ a:active {
  * ## typography
  * ------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Heebo", sans-serif;
+  font-family: "candara","Heebo", sans-serif;
   font-weight: 500;
   font-style: normal;
-  color: #000000;
+  color: #fff;
   font-variant-ligatures: common-ligatures;
   text-rendering: optimizeLegibility;
+  
 }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
