@@ -274,7 +274,7 @@ p.lead {
   font-size: 2.4rem;
   line-height: 1.833;
   margin-bottom: 3.6rem;
-  color: #000000;
+  color: #fff;
 }
 
 @media screen and (max-width:1200px) {
@@ -1126,7 +1126,7 @@ input::-moz-focus-inner {
   line-height: 6rem;
   text-indent: 0;
   background: transparent;
-  color: #000000;
+  color: #fff;
 }
 
 /* line definition style 
