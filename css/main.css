@@ -61,13 +61,15 @@
  *
  * ------------------------------------------------------------------- */
 
- .contact-box {
+ .multimedia-box {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: .6em;
+  margin-bottom: .6em;
 }
 
-.contact-box div {
+.multimedia-box div {
   width: 100px;
   height: 100px;
 }
