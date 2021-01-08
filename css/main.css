@@ -61,6 +61,22 @@
  *
  * ------------------------------------------------------------------- */
 
+  h1 {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    font-size: 50px;
+    border-bottom: 6px solid white;
+  }
+
+  hr {
+    border-top: 0px solid white !important;
+    padding: 0;
+    margin-top: 0.5em !important;
+    border-width: 6px !important;
+    width: 245px;
+  }
+
  .multimedia-box {
   display: flex;
   align-items: center;
