@@ -60,6 +60,9 @@
  * # base style overrides
  *
  * ------------------------------------------------------------------- */
+  a, h1, h2 {
+    overflow-wrap: normal;
+  }
 
   h1 {
     width: -webkit-fit-content;
@@ -1649,7 +1652,6 @@ input::-moz-focus-inner {
 .display-1 {
   font-size: 5.6rem;
   line-height: 1.143;
-  overflow-wrap: normal;
   letter-spacing: -0.05rem;
   margin-top: 0;
   margin-bottom: 1.6rem;
