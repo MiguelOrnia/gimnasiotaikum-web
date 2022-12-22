@@ -296,6 +296,34 @@ p img {
   margin: 0;
 }
 
+img {
+  border-radius: .2em;
+  border: 2px solid #313131;
+}
+
+.my-container {
+  background-color: #ffffff;
+  border-radius: .2em;
+  color: #313131; 
+  padding: 1em;
+}
+
+.my-container h4, .my-container h3, .my-container a {
+  color: #313131; 
+}
+
+.my-container a:hover {
+  color: rgb(201, 45, 45);
+}
+
+a:hover {
+  font-size: 1.1em;
+}
+
+.contact-bus-image {
+  border: 0;
+}
+
 p.lead {
   font-family: "IBM Plex Sans", sans-serif;
   font-weight: 300;
